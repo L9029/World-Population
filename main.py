@@ -4,7 +4,8 @@ import os
 def main():
     path = os.path.join(os.getcwd(), "resources/data.csv")
     
-    read_csv(path)
+    data = read_csv(path)
+    print(data)
 
 if __name__ == "__main__":
     main()
